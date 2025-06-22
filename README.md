@@ -5,7 +5,7 @@
 ## 📈 Algorithmic Trading in Python
 
 This repository contains my work on building and experimenting with algorithmic trading strategies using Python. The goal was to understand how automated trading works in practice by simulating real-time orders and testing various strategies in a controlled, virtual environment.
-This is the project page in [notion]([url](https://alive-quit-dd2.notion.site/1f306653ae11804a9413cf5979318fc1?v=1f306653ae118025aaaa000cbcde5da4))
+This is the project page in [notion](https://alive-quit-dd2.notion.site/1f306653ae11804a9413cf5979318fc1?v=1f306653ae118025aaaa000cbcde5da4)
 ---
 
 ### 🎯 **Project Overview**
