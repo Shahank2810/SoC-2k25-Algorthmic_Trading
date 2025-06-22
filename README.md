@@ -1,11 +1,11 @@
-Got it — you want the **README** written in the voice of a **student or mentee**, not as an instructor giving instructions. It should sound like *your personal project description* rather than a tutorial. Here’s a polished version in that style:
+
 
 ---
 
 ## 📈 Algorithmic Trading in Python
 
 This repository contains my work on building and experimenting with algorithmic trading strategies using Python. The goal was to understand how automated trading works in practice by simulating real-time orders and testing various strategies in a controlled, virtual environment.
-
+This is the project page in [notion]([url](https://alive-quit-dd2.notion.site/1f306653ae11804a9413cf5979318fc1?v=1f306653ae118025aaaa000cbcde5da4))
 ---
 
 ### 🎯 **Project Overview**
