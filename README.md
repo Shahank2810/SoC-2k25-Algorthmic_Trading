@@ -1,48 +1,49 @@
+📈 Algorithmic Trading in Python
+This project is my ongoing exploration of algorithmic trading using Python. It simulates a trading environment where I can build strategies, test their behavior, and better understand the mechanics behind how trading systems work in real life.
 
+🧠 What I’ve Learned So Far
+🏗️ Building Blocks of a Trading System
+I’ve written core components like Order, Trade, and OrderBook using object-oriented Python.
 
----
+This helped me understand how exchanges handle bids and asks, and how real-time matching works internally.
 
-## 📈 Algorithmic Trading in Python
+Implementing an order book from scratch gave me a hands-on understanding of market microstructure and order flow.
 
-This repository contains my work on building and experimenting with algorithmic trading strategies using Python. The goal was to understand how automated trading works in practice by simulating real-time orders and testing various strategies in a controlled, virtual environment.
-This is the project page in [notion](https://alive-quit-dd2.notion.site/1f306653ae11804a9413cf5979318fc1?v=1f306653ae118025aaaa000cbcde5da4)
----
+⚖️ Order Matching and Execution Logic
+I learned how trades are matched either within the order book or through external simulated market activity.
 
-### 🎯 **Project Overview**
+I now appreciate how even small changes in execution logic can affect trade outcomes, slippage, and performance.
 
-I wanted to explore how trading bots can be designed, tested, and refined using Python. To do this, I focused on writing reusable classes that handle the main parts of a trading system — like orders, trades, and the order book — and then used them to try out different trading ideas.
+📉 Risk Management is Non-Negotiable
+I implemented position limits and experimented with stop-loss and take-profit mechanisms.
 
----
+I learned that profitability without risk controls is fragile — one bad trade can undo an entire strategy.
 
-### ⚙️ **What I Implemented**
+🧪 Strategy Design and Evaluation
+I explored several basic strategies:
 
-* **Object-Oriented Design**
+Mean Reversion
 
-  * `Order` — defines a basic buy/sell order.
-  * `Trade` — records details of executed trades.
-  * `OrderBook` — simulates how a real exchange matches orders.
+Momentum
 
-* **Order Matching Logic**
+Market Making
 
-  * Orders are first matched within my own simulated order book.
-  * If no match is possible, they can interact with external simulated participants (bots).
+Breakout & Z-Score
 
-* **Risk Controls**
+Bollinger Bands
 
-  * Position limits to prevent overexposure.
-  * Logic for stop loss and take profit where applicable.
+RSI-based decisions
 
-* **Trading Strategies Tried**
+Each strategy taught me something different about timing, signal noise, and how important it is to test in multiple conditions.
 
-  * Mean Reversion
-  * Market Making
-  * Momentum
-  * Breakout
-  * Z-Score Method
-  * Stop Loss / Take Profit variations
-  * Bollinger Bands
-  * Relative Strength Index (RSI)
+I also began to notice overfitting patterns — strategies that work only on the past data but fall apart elsewhere.
 
-I mainly experimented with how these strategies behave under different market conditions and tried combining ideas to see what works better.
+🛠️ Modular Thinking with Python
+Using Python classes for each component forced me to write clean, modular, and reusable code.
 
+I now think more in terms of how different parts of a system communicate: strategy → order → execution → trade → position.
 
+📊 The Gap Between Theory and Practice
+While backtests were helpful, I saw firsthand how easy it is to over-tune a strategy to the past.
+
+I’m learning to focus more on robustness than just profit curves.
