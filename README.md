@@ -2,6 +2,7 @@
 This project is my ongoing exploration of algorithmic trading using Python. It simulates a trading environment where I can build strategies, test their behavior, and better understand the mechanics behind how trading systems work in real life.
 
 🧠 What I’ve Learned So Far
+
 🏗️ Building Blocks of a Trading System
 I’ve written core components like Order, Trade, and OrderBook using object-oriented Python.
 
